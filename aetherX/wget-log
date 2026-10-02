@@ -1,0 +1,18 @@
+--2026-07-17 22:35:04--  https://update.code.visualstudio.com/commit:125df4672b8a6a34975303c6b0baa124e560a4f7/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 150.171.109.1, 2603:1061:14::1
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|150.171.109.1|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://vscode.download.prss.microsoft.com/dbazure/download/stable/125df4672b8a6a34975303c6b0baa124e560a4f7/vscode-server-linux-x64.tar.gz [following]
+--2026-07-17 22:35:20--  https://vscode.download.prss.microsoft.com/dbazure/download/stable/125df4672b8a6a34975303c6b0baa124e560a4f7/vscode-server-linux-x64.tar.gz
+Resolving vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)... 2.19.251.65, 2.19.251.74, 2600:1416:7000:3::210:a2b1, ...
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|2.19.251.65|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 192130579 (183M) [application/octet-stream]
+Saving to: ‘/home/master-dev/.vscode-server/bin/125df4672b8a6a34975303c6b0baa124e560a4f7-1784316890.tar.gz’
+
+
+
+2026-07-17 22:51:44 (1.10 KB/s) - Read error at byte 1094135/192130579 (Connection timed out). Retrying.
+
+--2026-07-17 22:51:45--  (try: 2)  https://vscode.download.prss.microsoft.com/dbazure/download/stable/125df4672b8a6a34975303c6b0baa124e560a4f7/vscode-server-linux-x64.tar.gz
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|2.19.251.65|:443... 

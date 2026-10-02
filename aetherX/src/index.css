@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&family=Metrophobic&family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&family=Metrophobic&family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CA+Guides&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-display: 'metrophobic', 'sans-serif';
+    --color-primary: #5B6CFF;
+    --breakpoint-3xl: 1920px;
+    --color-secondary: #CBD5E1;
+
+}
+
+@layer base {
+    html {
+        font-family: var(--font-display);
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #050816;
+        overflow-x: hidden;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+
+    }
+
+    .fashion_font {
+        font-family: "Playwrite CA Guides", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #0b0e1b;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #8892bd;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #b8bdd3;
+    }
+
+    /* windows browsers scrollbar  */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(30, 30, 172) rgb(13, 13, 44);
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .animate-marquee {
+        animation: marquee 30s linear infinite;
+    }
+
+}
