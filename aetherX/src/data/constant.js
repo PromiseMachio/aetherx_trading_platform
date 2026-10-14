@@ -4,11 +4,10 @@ import profileImg from '../assets/images/heroImage2.jpg'
 import backgroundImg from '../assets/images/heroImg.png'
 
 export const NAV_LINK=[
-    {id:'market',label:'Market'},
+    {id:'dashboard',label:'Dashboard'},
     {id:'trade',label:'Trade'},
-    {id:'earn',label:'Earn'},
-    {id:'learn',label:'Institutional'},
-    {id:'news',label:'News'}
+    {id:'portfolio',label:'Portfolio'},
+    {id:'market_signals',label:'Market signals'}
 
 ]
 
