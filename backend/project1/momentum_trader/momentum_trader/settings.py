@@ -125,3 +125,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MASSIVE_API_KEY = config('MASSIVE_API_KEY', default= '')
+SNAPTRADE_CLIENT_SECRET= config('SNAPTRADE_CLIENT_SECRET', default= '')
+SNAPTRADE_CLIENT_ID= config('SNAPTRADE_CLIENT_ID', default= '')
+
+ENABLE_LIVE_TRADING = False
