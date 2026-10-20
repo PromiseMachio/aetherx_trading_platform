@@ -21,10 +21,10 @@ const Hero = () => {
                 {HERO_CONTENT.intro}
               </span>
             </div>
-            <div className='leading-relaxed'>
-              <p className='text-white text-3xl  lg:text-6xl   font-extrabold'>{HERO_CONTENT.tagline[0]}</p>
-              <span className="fashion_font  bg-gradient-to-tr from-blue-700 via-blue-400 to-red-400 bg-clip-text text-transparent lg:text-7xl md:text-5xl sm:text-4xl ">{HERO_CONTENT.tagline[1]}</span>
-              <p className='text-white  lg:text-7xl md:text-5xl sm:text-4xl  font-extrabold'>{HERO_CONTENT.tagline[2]}</p>
+            <div className='leading-relaxed text-left '>
+              <p className='text-white text-5xl  lg:text-6xl   font-extrabold'>{HERO_CONTENT.tagline[0]}</p>
+              <span className="fashion_font  bg-gradient-to-tr from-blue-700 via-blue-400 to-red-400 bg-clip-text text-transparent text-4xl lg:text-6xl  ">{HERO_CONTENT.tagline[1]}</span>
+              <p className='text-white text-4xl  lg:text-6xl font-extrabold'>{HERO_CONTENT.tagline[2]}</p>
             </div>
 
 
@@ -58,7 +58,7 @@ const Hero = () => {
         <div className=' grid md:grid-cols-1  items-center justify-center p-0'>
           <div className="mt-5 w-full  overflow-hidden p-4">
             {/* 1. Outer Gradient Wrapper for the Glass Border */}
-            <div className="relative rounded-full p-[1px] bg-gradient-to-r from-white/20 via-white/5 to-white/20 backdrop-blur-md">
+            <div className="relative rounded-lg border-r border-l border-transparent p-[1px] bg-gradient-to-r from-white/20 via-white/5 to-white/20 backdrop-blur-md">
 
               {/* 2. Inner Frosted Glass Track Box */}
               <div className="flex overflow-hidden rounded-full bg-slate-900/40 py-3 px-6 shadow-xl backdrop-blur-xl">

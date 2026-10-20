@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className='relative  min-h-[90]  w-full bg-cover bg-center bg-no-repeat overflow-hidden'>
       <div className='relative max-w-7xl items-center sm:px-6 lg:py-5'>
-        <div className='text-center'>
+        <div className='text-center mt-5'>
           <p className='text-emerald-400 uppercase font-light'>{ABOUT.why}</p>
           <p className='text-white/80 text-5xl font-extrabold'>{ABOUT.intro}</p>
           <p className='text-white/35 leading-relaxed p-4'>{ABOUT.tagline}</p>
